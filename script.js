@@ -10,7 +10,7 @@ function do_math(op) {
 }
 function calc() {
     if (oper == "+") { res.value = +res.value + +num1 }
-    if (oper == "-") { res.value = +res.value - +num1 }
+    if (oper == "-") { res.value = +num1- +res.value }
     if (oper == "*") { res.value = +res.value * +num1 }
     if (oper == "/") { res.value = +num1 / +res.value }
     if (oper == "^") { res.value = Math.pow(+num1, +res.value) }
