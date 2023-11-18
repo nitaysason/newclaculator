@@ -31,9 +31,9 @@ function addnum(new_digit) {
     }
 
 
-    if (res.value.length < 11)
+    if (res.value.length < 11){
         res.value += new_digit
-
+}
 
 }
 
